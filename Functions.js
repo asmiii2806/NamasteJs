@@ -13,6 +13,29 @@ const myvar=()=>
     console.log("asmi");
 
 }
+myvar();
+
+
+str="asmi";
+const mvar =(str )=>
+{
+    let count=0;
+    for(let i=0; i<str.length; i++)
+    {
+        if(str[i]=='a' || str[i]=='e'  || str[i]=='i' || str[i]=='o' || str[i]=='u')
+        {
+            count++;
+
+        }
+     
+    }
+    return countq;
+
+}
+
+//countvowels(str);
+console.log(mvar(str));
+
 
 
 
@@ -90,4 +113,4 @@ NOW THIS A FUNCTION REMOVED FROM CLL STACK
 NOW  LINE 6 EXECTUED 
 X=1 PRINTED 
 SO NOW END..
-WHOLE EXECUTION CONTEXT DELETED 
+WHOLE EXECUTION CONTEXT DELETED */
