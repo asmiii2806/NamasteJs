@@ -1,6 +1,50 @@
 //HOW FUNCTIONS WORK
 
-var x=1;
+function myname()
+{
+    console.log("asmi");
+}
+
+myname();
+
+
+const myvar=()=>
+{
+    console.log("asmi");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*var x=1;
 a();
 b();
 console.log(X);
