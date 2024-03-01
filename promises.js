@@ -22,3 +22,5 @@ createOrder(cart)
 
 //USING ARROW FUCTION
 
+let promise=new promise((resolve, reject)=>{console.log("I AM PROMISE")});
+

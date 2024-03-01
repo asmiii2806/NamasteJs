@@ -1,4 +1,4 @@
-const asmi=(para1, para2)=>
+/*const asmi=(para1, para2)=>
 {
     console.log("asmi");
 
@@ -21,3 +21,41 @@ nums.forEach((num)=>
 });
 
 console.dir(window.document);
+
+let ans=document.getElementById("headline");
+console.log(ans);
+
+
+console.dir(ans);
+
+let h2=document.querySelector("h2");
+console.dir(h2.innerText);
+
+h2.innerText=h2.innerText+ "form apna college student";
+
+
+let a=document.querySelectorAll(".box");
+a[0].innerText="formed";
+
+let idx=1;
+for(div of a)
+{
+    div.innerText=`new formed ${idx}`;
+    idx++;
+    
+}*/
+
+let newbtn=document.createElement("button");
+newbtn.innerText="click me!";
+newbtn.style.backgroundColor="red";
+
+//SELECTING THE BODY TAG AND THEN PREPEND THE BUTTON
+document.querySelector("body").prepend(newbtn);
+
+let para=document.querySelector("p");
+
+para.setAttribute("class", "newClass");
+
+para.classList.add("newClass");
+
+
