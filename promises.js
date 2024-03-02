@@ -1,4 +1,4 @@
-const cart = ["shoes", "pants", "kurta"];
+/*const cart = ["shoes", "pants", "kurta"];
 
 createOrder(cart, function(orderId) {
   proceedToPayment(orderId, function (paymentInfo) {
@@ -19,8 +19,26 @@ createOrder(cart)
     updateWalletBalance(paymentInfo);
   });
 
-
+*/
 //USING ARROW FUCTION
 
-let promise=new promise((resolve, reject)=>{console.log("I AM PROMISE")});
+let promise=new Promise((resolve, reject)=>
+{
+  console.log("I AM PROMISE");
+}
+);
 
+//let promise1=promise();
+promise1.then(()=>
+{
+  console.log("promise fulledliled");
+
+});
+
+
+
+promise1.then(()
+{
+  console.log("promise fulledliled");
+
+});
