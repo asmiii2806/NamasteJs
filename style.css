@@ -1,10 +1,15 @@
-.content
+*
 {
-    color:red;
-
-
+    font-family: 'Times New Roman', Times, serif;
 }
-.newClass
+
+h1{
+    text-align: center;
+}
+
+
+
+#outer
 {
-    background-color: blue;
+    font-size: 25px;
 }
