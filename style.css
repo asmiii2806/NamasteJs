@@ -1,4 +1,4 @@
-*
+/*--*
 {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -8,8 +8,35 @@ h1{
 }
 
 
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 3px dashed black ;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+} 
 
-#outer
+<!--div is ny default block typed, so it always occupy the right side margin*/
+
+*
 {
-    font-size: 25px;
+    margin: 0;
+    color:white;
+
 }
+
+#navbar
+{
+    height:60px;
+    background-color:black;
+}
+
+button{
+    background-color: orange;
+}
+a{
+    margin-right: 200px;
+}
+

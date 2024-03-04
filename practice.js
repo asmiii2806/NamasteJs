@@ -43,7 +43,7 @@ for(div of a)
     div.innerText=`new formed ${idx}`;
     idx++;
     
-}*/
+}
 
 let newbtn=document.createElement("button");
 newbtn.innerText="click me!";
@@ -56,6 +56,21 @@ let para=document.querySelector("p");
 
 para.setAttribute("class", "newClass");
 
-para.classList.add("newClass");
+para.classList.add("newClass");*/
+
+function x()
+{
+    console.log(this);
+
+    function y()
+    {
+        console.log(this);
+    }
+    y();
+}
+
+x();
+
+
 
 
