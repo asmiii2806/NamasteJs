@@ -72,5 +72,22 @@ function x()
 x();
 
 
+const person={
+    name: "Akshay",
+};
+
+x.call(person);
+
+
+
+const person={
+    name: "Akshay",
+};
+
+x.call(person);
+
+
+
+
 
 
