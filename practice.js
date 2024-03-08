@@ -80,7 +80,7 @@ x.call(person);
 
 
 
-const person={
+const person2={
     name: "Akshay",
 };
 

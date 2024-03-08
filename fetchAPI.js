@@ -1,4 +1,14 @@
-const URL="https://cat-fact.herokuapp.com/facts"
-let promise=fetch(URL);
+const URL="https://cat-fact.herokuapp.com/facts";
 
-console.log(promise);
+
+const getFacts = async () => {
+
+    console.log("getting dta...");
+    let response=await fetch(URL);
+
+console.log(response);
+
+
+};
+
+getFacts();
